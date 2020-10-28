@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js">
+
+    <style> 
+        @font-face {
+          font-family: myFirstFont;
+          src: url(font/Bitter-Regular.ttf);
+        }
+        
+        body {
+          font-family: myFirstFont;
+        }
+        .border-page-color{
+            border-color:#3f5e52 !important;
+        }
+        .background-page-color{
+            background-color:#3f5e52 !important;
+        }
+        </style>
+</head>
+<body>
+    <div class="w-3/4 m-auto flex p-3">
+        <img src="/img/index/6.jpg" alt="" height="">
+        <div class="text-center w-full">
+            <!-- <div class="h-40">
+                
+            </div> -->
+            <div class="font-bold text-3xl text-right pr-20 pb-10">
+                <p>
+                    sck product
+                </p>
+            </div>
+            <div class="mt-10 border-t border-b text-xl border-page-color">
+                <ul class="flex py-1 justify-center">
+                    <li class="px-3">
+                        <a href="#" class="m-2 border-r-2 border-l-2 p-2 text-white background-page-color border-page-color">
+                            anasayfa
+                        </a>
+                    </li>
+                    <li class="px-3">                        
+                        <a href="about.html" class="m-2 border-r-2 border-l-2 p-2 border-page-color">
+                            hakkkımda
+                        </a>
+                    </li>
+                    <li class="px-3">                        
+                        <a href="blog.html" class="m-2 border-r-2 border-l-2 p-2 border-page-color">
+                            blog
+                        </a>
+                    </li>
+                    <li class="px-3">                        
+                        <a href="#" class="m-2 border-r-2 border-l-2 p-2 border-page-color">
+                            forum
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-10 pl-20 text-left text-xl">
+                <p>
+                    admin girisi
+                </p>
+            </div>
+            <div class="mt-10 pl-20 text-left">
+                <input type="email" placeholder="email" class="border rounded border-page-color px-2 py-1 w-full">
+            </div>
+            <div class="mt-10 pl-20 text-left">
+                <input type="password" placeholder="sifre" class="border rounded border-page-color px-2 py-1 w-full">
+            </div>
+            <div class="mt-10 pl-20 text-left">
+                <input type="button" value="giris yap" class="border-r-2 border-l-2 p-2 text-white background-page-color border-page-color rounded px-4 py-1 cursor-pointer">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('img').css({
+            "height":screen.height-160
+        });
+    </script>
+</body>
+</html>

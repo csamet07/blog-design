@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+
+    <style>
+        @font-face {
+            font-family: myFirstFont;
+            src: url(font/Bitter-Regular.ttf);
+        }
+
+        body {
+            font-family: myFirstFont;
+        }
+
+        .border-page-color {
+            border-color: #3f5e52 !important;
+        }
+
+        .background-page-color {
+            background-color: #3f5e52 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-3/4 m-auto flex p-3 border-l-2 border-r-2 border-page-color">
+        <a href="index.html" class="text-white background-page-color px-5 rounded">
+            <i class="fas fa-reply-all pt-3" style="font-size: 15px;"></i>
+        </a>
+        <div class="w-2/4"></div>
+        <div class="border-t border-b text-xl border-page-color justify-end">
+            <ul class="flex py-1">
+                <li class="px-3">
+                    <a href="about.html" class="m-2 border-r-2 border-l-2 p-2 border-page-color">
+                        +
+                    </a>
+                </li>
+                <li class="px-3">
+                    <a href="#" class="m-2 border-r-2 border-l-2 p-2 border-page-color
+                    ">
+                        bloglar
+                    </a>
+                </li>
+                <li class="px-3">
+                    <a href="#" class="m-2 border-r-2 border-l-2 p-2 text-white background-page-color">
+                        sametcankaratas
+                    </a>
+                </li>
+                <li class="px-3">
+                    <a href="#" class="m-2 border-r-2 border-l-2 p-2 border-page-color">
+                        çıkıs
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="w-3/4 m-auto p-3 border-l-2 border-r-2 border-page-color">
+        
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('.borderHeight').css({
+            "height": screen.height - 700
+        });
+    </script>
+</body>
+
+</html>
